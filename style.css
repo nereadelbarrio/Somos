@@ -1,1 +1,18 @@
 
+#actividad .content .texto_curso  ul.bck-ul-2 li,
+#actividad .content .workspace ul li ul.bck-ul-2 li {
+    list-style: none;
+}
+
+#actividad .content .cke_contents .bck-ul-2 li:before, 
+#actividad .content .texto_curso .bck-ul-2 li:before, 
+#actividad .content .workspace ul li .bck-ul-2 li:before{
+margin-top: 1px;
+    text-align: center;
+    margin-left: -23px;
+    font-family: 'FontAwesome';
+    content: "\f005";
+    color: #FFD503;
+    font-size: 14px;
+    background: #fff;
+}
