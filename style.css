@@ -1197,20 +1197,20 @@ margin-top: 1px;
         position: relative;
     }
 
-/*caja materiales*/
+/*caja inicioModulo*/
 
 .bck-box.box-4 {
-   border: 3px dotted #94c04e;
-    padding: 8px 14px 0px;
-    border-radius: 13px;
+    border: 2px solid #444444;
+    border-radius: 20px;
+    padding: 10px 20px;
 }
 
 
 .bck-box.box-4 .bck-title{
     display: block;
-    padding: 0px 14px;
-    color: #94c04e;
-    font-weight: bold;
+    padding: 10px 0px 20px 0px;
+    color: #444444;
+    font-weight: lighter;
     position: relative;
     background-color: #fff;
     width: fit-content;
