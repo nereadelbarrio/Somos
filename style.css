@@ -1,31 +1,5 @@
-/*caje leon*/
-
-.bck-box.box-2:before {
-    content: " ";
-    left: -97px;
-    margin-top: -16px;
-    position: absolute;
-    background-repeat: no-repeat;
-    /* background: url(images/integracionyvaloresicon.png); */
-    padding: 91px;
-    background-size: contain;
-    background-image: url(https://www.blinklearning.com/useruploads/r/a/138234316/activity_other_imported/caja_leon_01.png);
-}
 
 
-/*Lista 1= estrellas*/
-#actividad .content .cke_contents .bck-ul-2 li:before, 
-#actividad .content .texto_curso .bck-ul-2 li:before, 
-#actividad .content .workspace ul li .bck-ul-2 li:before{
-margin-top: 1px;
-    text-align: center;
-    margin-left: -23px;
-    font-family: 'FontAwesome';
-    content: "\f005";
-    color: #FFD503;
-    font-size: 14px;
-    background: #fff;
-}
 
 
 
