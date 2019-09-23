@@ -1,6 +1,15 @@
 /* General */
 
 @font-face {
+	font-family: 'Conv_Chilanka-Regular';
+	src: url('fonts/Chilanka-Regular.eot');
+	src: local('☺'), url('fonts/Chilanka-Regular.woff') format('woff'), url('fonts/Chilanka-Regular.ttf') format('truetype'), url('fonts/Chilanka-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
     font-family: 'Conv_berlin-sans-fb';
     src: url('fonts/berlin-sans-fb.eot');
     src: local('☺'), url('fonts/berlin-sans-fb.woff') format('woff'), url('fonts/berlin-sans-fb.ttf') format('truetype'), url('fonts/berlin-sans-fb.svg') format('svg');
