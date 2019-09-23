@@ -1019,6 +1019,8 @@ ol.bck-ol {
 #actividad .content .texto_curso  ul.bck-ul-2 li,
 #actividad .content .workspace ul li ul.bck-ul-2 li {
     list-style: none;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
 }
 
 #actividad .content .cke_contents .bck-ul-2 li:before, 
