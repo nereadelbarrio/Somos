@@ -1214,7 +1214,7 @@ margin-top: 1px;
         position: relative;
     }
 
-/*caja inicioModulo*/
+/*caja materiales = caja inicioModulo*/
 
 .bck-box.box-4 {
     border: 2px solid #444444;
@@ -1232,11 +1232,13 @@ margin-top: 1px;
     background-color: #fff;
     width: fit-content;
     top: 0px;
+    font-family: 'Chilanka', cursive;
 }
 
 .bck-box.box-4 .bck-content{
     margin-top: -40px;
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
     }
 
 /*caja valores*/
