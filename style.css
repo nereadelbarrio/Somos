@@ -1221,6 +1221,7 @@ margin-top: 1px;
     border: 2px solid #444444;
     border-radius: 20px;
     padding: 10px 20px;
+    background-color: rgb(255,253,233);
 }
 
 
@@ -1230,7 +1231,6 @@ margin-top: 1px;
     color: #444444;
     font-weight: lighter;
     position: relative;
-    background-color: #fff;
     width: fit-content;
     top: 0px;
     font-family:'Conv_Chilanka-Regular',Sans-Serif;
