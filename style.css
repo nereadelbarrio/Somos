@@ -661,7 +661,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         font-size: 24px;
     }
 
-
+    /*título 1 = título león*/
     .bck-title1 {
         font-family: 'Conv_Chilanka-Regular',Sans-Serif;
         color: #444444;
@@ -669,11 +669,22 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         padding: 10px 15px 0px 15px;
         margin-bottom: 7px;
         font-size: 28px;
-        background-color: #FFC20E;
+        background-color: #edc500;
         width: fit-content;
         border-radius: 31px;
         border-right: 2px solid #444444;
         border-left: 2px solid #444444;
+    }
+
+    .bck-title1:before {
+        background-size: contain;
+        content: " ";
+        padding: 42px;
+        left: -36px;
+        margin-top: -34px;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-image: url(images/titulo1.png);
     }
 
     .bck-title2 {
