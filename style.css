@@ -717,7 +717,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     border-bottom-right-radius: 36px;
     border-top-right-radius: 37px;
     width: auto;
-    font-family: 'Chilanka', cursive;
+    font-family:'Conv_Chilanka-Regular',Sans-Serif;
     margin-bottom: 30px;
     margin-left: -97px;
 }
