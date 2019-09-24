@@ -1233,13 +1233,14 @@ margin-top: 1px;
     background-color: #fff;
     width: fit-content;
     top: 0px;
-    font-family: 'Chilanka', cursive;
+    font-family:'Conv_Chilanka-Regular',Sans-Serif;
+    font-weight: bold;
 }
 
 .bck-box.box-4 .bck-content{
     margin-top: -40px;
     padding: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Conv_Chilanka-Regular',Sans-Serif;
     }
 
 /*caja valores*/
