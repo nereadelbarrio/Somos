@@ -207,6 +207,7 @@
     .content_type_clase_Somos #actividad .texto_curso,
     .content_type_clase_Somos #actividad .slide_content_type_1 .pregunta .texto_curso {
         font-size: 21px;
+	font-family: 'Conv_Nunito-Light',Sans-Serif;
     }
 
     .texto_curso p:last-of-type {
