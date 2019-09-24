@@ -697,10 +697,28 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         background-image: url(images/titulo1.png);
     }
 
-    .bck-title2 {
-         font-size: 25px;
-        font-family: 'Conv_BerlinSansFBDemi-Bold';
-        border-bottom: 2px dotted;
+    /*titulo2 = titulo actividades*/
+    .bck-title2:before {
+        background-size: contain;
+        content: " ";
+        padding: 415px;
+        left: -35px;
+        margin-top: -30px;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-image: url(images/actividades_03.png);
+    }
+    .bck-title2{
+        font-size: 25px;
+        color: #444444;
+        padding: 20px 52px 15px 95px;
+        border-bottom-right-radius: 36px;
+        border-top-right-radius: 37px;
+        width: auto;
+        font-family: 'Conv_Chilanka-Regular',Sans-Serif;
+        margin-bottom: 30px;
+        margin-left: -97px;
+        font-weight: 900;
     }
 
 
