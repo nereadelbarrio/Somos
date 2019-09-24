@@ -811,7 +811,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         border-top: 2px solid #85b426;
     }
 
-/*lista ordenada*/
+/*lista ordenada por defecto*/
 
     .content ol,
     .cke_contents ol {
@@ -829,13 +829,19 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
 
     .content ol li:before,
     .cke_contents ol li:before {
-        content: counter(bck-li-counter)'. ';
+        content: counter(bck-li-counter)' ';
         position: absolute;
-        margin-left: -35px;
+        margin-left: -47px;
         font-weight: bold;
         text-align: right;
-        color: #5bbfda;
+        color: #444444;
         margin-top: -2px;
+        background-color: #F6BB0D;
+        padding: 4px 13px 4px 10px;
+        border-radius: 0 20px 20px 0;
+        border-right: 2px solid #444444;
+        border-top: 2px solid #444444;
+        border-bottom: 2px solid #444444;
     }
 
 
