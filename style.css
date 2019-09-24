@@ -720,6 +720,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     font-family:'Conv_Chilanka-Regular',Sans-Serif;
     margin-bottom: 30px;
     margin-left: -97px;
+    font-weight: 900;
 }
 
 .bck-title7:before {
