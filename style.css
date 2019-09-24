@@ -1215,21 +1215,24 @@ margin-top: 1px;
     }
 
 
-/*caja aplico lo aprendido*/
+/*caja 1 = caja bordeAmarillo*/
 
     .bck-box.box-1 {
-        background: #f7ebd6;
+        background: #ffff;
+        border-top: 1px solid #F6BB0D;
+        border-bottom: 3px solid #F6BB0D;
+        border-left: 3px solid #F6BB0D;
+        border-right: 1px solid #F6BB0D;
         position: relative;
         padding: 15px;
         border-radius: 10px;
     }
 
-.bck-box.box-1 .bck-content{
-    border: dashed #000 2px;
-    padding: 10px;
-    padding: 15px;
-    border-radius: 10px;
-}
+    .bck-box.box-1 .bck-content{
+        padding: 10px;
+        padding: 15px;
+        border-radius: 10px;
+    }
 
 /* caja taller ambiental*/
 
