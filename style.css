@@ -1204,7 +1204,14 @@ margin-top: 1px;
         border-left: 0px;
     }
     
-  
+   /*iconos*/
+   .item-container .icon-ideias:before {
+        height: 75px;
+        width: 225px;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        background-image: url(images/tallerambiental.png);
+    }
 
     /*cajas*/
 
