@@ -1205,6 +1205,10 @@ margin-top: 1px;
     }
     
    /*iconos*/
+   .item-container .icon-ideias{
+        background-color: #fc4237;
+    }
+   
    .item-container .icon-ideias:before {
         height: 75px;
         width: 225px;
