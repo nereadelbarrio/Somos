@@ -845,6 +845,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         position: relative;
         padding-left: 32px;
 	text-align: left;
+	margin-bottom: 25px;
     }
 
 
