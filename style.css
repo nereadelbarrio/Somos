@@ -747,13 +747,35 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         background-image: url(images/bocadillo01.PNG);
     }
 
- .bck-title4 {
-    font-weight: bold;
-    color: #8fb435;
-     font-size: 25px;
-    font-family: 'Conv_BerlinSansFBDemi-Bold';
-}
+ /*titulo4 = titulo emcasa*/
 
+    .bck-title4:before {
+        background-size: contain;
+        content: " ";
+        padding: 26px;
+        left: -28px;
+        margin-top: -20px;
+        margin-left: -37px;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-image: url(images/icono_emtucasa.png);
+    }
+
+     .bck-title4 {
+        color: #444444;
+        margin: 0;
+        padding: 10px 15px 0px 15px;
+        margin-bottom: 30px;
+        left: 45px;
+        font-size: 28px;
+        color: #44444;
+        font-size: 25px;
+        font-family: 'Conv_Chilanka-Regular',sans-serif;
+        text-align: center;
+        border: 10px double #EF4C84;    
+        border-radius: 40px;
+        width: fit-content;
+    }
 
 
 
