@@ -1297,7 +1297,7 @@ margin-top: 1px;
 
     .bck-box.box-2 {
         background: #FFFDE9;
-        width: 105.2%;
+        width: 105%;
         margin-left: -2.5%;
         padding: 23PX 23PX;
         BORDER-TOP: 3PX SOLID #EF4C84;
@@ -1305,6 +1305,7 @@ margin-top: 1px;
         BORDER-LEFT: 30PX SOLID #EF4C84;
         BORDER-RIGHT: 30PX SOLID #EF4C84;
         color: #333;
+        border-radius: 30px;
     }
 
     
@@ -1314,7 +1315,7 @@ margin-top: 1px;
         padding: 10px 15px 0px 15px;
         margin-bottom: 30px;
         left: 50px;
-        MARGIN-LEFT: 50px;
+        MARGIN-LEFT: 34%;
         font-size: 28px;
         color: #44444;
         font-size: 25px;
@@ -1326,15 +1327,15 @@ margin-top: 1px;
     }
 
     .bck-box.box-2 .bck-title:before{
-    content: " ";
-    left: 0px;
-    margin-top: -5px;
-    position: absolute;
-    background: url(images/icono_emtucasa.png);
-    padding: 21px;
-    background-size: contain;
+	    content: " ";
+	    left: 0px;
+	    margin-top: -12px;
+	    position: absolute;
+	    background: url(images/icono_emtucasa.png);
+	    padding: 21px;
+	    background-size: contain;
+	    margin-left: 29%;
     }
-
 
 /*caja amarilla*/
 
