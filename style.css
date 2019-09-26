@@ -872,6 +872,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         padding-left: 32px;
 	text-align: left;
 	margin-bottom: 25px;
+	font-weight: bold;
     }
 
 
@@ -933,6 +934,7 @@ ol.bck-ol {
     padding-left: 32px;
     text-align: left;
     margin-bottom: 25px;
+    font-weight: bold;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li:before,
