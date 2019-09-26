@@ -752,10 +752,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     .bck-title4:before {
         background-size: contain;
         content: " ";
-        padding: 26px;
-        left: -28px;
-        margin-top: -20px;
-        margin-left: -37px;
+        padding: 21px;
+        left: -13px;
+        margin-top: -10px;
+        margin-left: 0px;
         background-repeat: no-repeat;
         position: absolute;
         background-image: url(images/icono_emtucasa.png);
@@ -767,6 +767,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         padding: 10px 15px 0px 15px;
         margin-bottom: 30px;
         left: 45px;
+        MARGIN-LEFT: 35px;
         font-size: 28px;
         color: #44444;
         font-size: 25px;
@@ -776,8 +777,6 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         border-radius: 40px;
         width: fit-content;
     }
-
-
 
     .bck-title5 {
     font-family: 'Conv_BerlinSansFBDemi-Bold';
