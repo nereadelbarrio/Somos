@@ -1295,14 +1295,18 @@ margin-top: 1px;
 
 /* caja taller ambiental*/
 
-    .bck-box.box-2 {
-    background: #eaf1d6;
-    width: 125.2%;
-    margin-left: -12.5%;
-    padding: 2% 14%;
-    /* margin-top: 50px; */
-    color: #333;
-}
+   .bck-box.box-2 {
+        background: #FFFDE9;
+        width: 105.2%;
+        margin-left: -2.5%;
+        padding: 23PX 23PX;
+        /* margin-top: 50px; */
+        BORDER-TOP: 3PX SOLID #EF4C84;
+        BORDER-BOTTOM: 3PX SOLID #EF4C84;
+        BORDER-LEFT: 30PX SOLID #EF4C84;
+        BORDER-RIGHT: 30PX SOLID #EF4C84;
+        color: #333;
+    }
 
     
     .bck-box.box-2 .bck-title {
