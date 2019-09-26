@@ -850,7 +850,12 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     .cke_contents hr {
         border: 0;
         border-top: 2px solid #85b426;
-    }
+}
+
+    /*justificación izda*/
+    .bck-indent-1{
+	margin-left: 33px;
+}
 
 /*lista ordenada por defecto*/
 
