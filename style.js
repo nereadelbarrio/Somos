@@ -26,6 +26,7 @@
 				{ name: 'Título Analice', element: 'h4', attributes: { 'class': 'bck-title8'} },
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
+				{ name: 'Énfasis Azul', element: 'span', attributes: { 'class': 'bck-enfasis-1' }},
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
