@@ -1392,35 +1392,33 @@ margin-top: 1px;
     font-family: 'Conv_Chilanka-Regular',Sans-Serif;
     }
 
-/*caja valores*/
+/*caja vamos jogar*/
 
 .bck-box.box-5 {
-    border: 4px dotted #6d348b;
+    border-top: 4px dotted #444444;
     border-radius: 10px;
     padding: 9px 17px;
+    background: #C5E8EC;
 }
 
 
 .bck-box.box-5 .bck-title{
-    font-family: 'MarkerFelt';
     display: block;
-    padding: 0px 40px;
-    color: #612b80;
-    font-weight: normal;
-    margin-top: -3.5%;
-    background-color: #fff;
+    font-family: 'Conv_Chilanka-Regular';
+    background-color: #01BAC6;
+    border: 2px solid #444444;
+    border-radius: 20px;
+    padding: 20px;
+    color: #444444;
+    font-weight: bold;
+    margin-top: -6.5%;
     width: fit-content;
+    margin-left: 29%;
+}
+.bck-box.box-5 .bck-title p{
+    margin-bottom: 15px; 
 }
 
-.bck-box.box-5 .bck-title:before {
-    content: " ";
-    left: 0px;
-    margin-top: -30px;
-    position: absolute;
-    background: url(images/integracionyvaloresicon.png);
-    padding: 30px;
-    background-size: contain;
-}
 
 .bck-box.box-5 .bck-content{
     padding: 10px;
