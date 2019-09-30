@@ -2324,6 +2324,14 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
    #actividad .carousel-inner .item-container{
         padding-bottom: 0;
     }
+
+    #actividad .carousel-inner .item-container.aux-bckg.is-top{
+        padding-bottom: 0;
+    }
+
+    #actividad .slide-concatenate:last-of-type .class_slide{
+        padding-bottom: 0
+    }
 	
     #actividad .carousel-inner .SinPieRadius .item-container.aux-bckg.is-top .class_slide{
         padding-right: 0px;
