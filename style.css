@@ -856,6 +856,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     font-weight: bold;
 }
 
+.bck-enfasis-1 p {
+    text-indent: 0px;
+}
+
 .bck-enfasis-2 {
     color: #ED1C24;
     font-weight: bold;
