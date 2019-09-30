@@ -2320,6 +2320,10 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 @media screen and (max-width: 1099px) {
 	
     /*SOMOS*/
+    
+   #actividad .carousel-inner .item-container{
+        padding-bottom: 0;
+    }
 	
     #actividad .carousel-inner .SinPieRadius .item-container.aux-bckg.is-top .class_slide{
         padding-right: 0px;
