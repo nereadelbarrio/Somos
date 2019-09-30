@@ -27,6 +27,7 @@
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
 				{ name: 'Énfasis Azul', element: 'span', attributes: { 'class': 'bck-enfasis-1' }},
+				{ name: 'Énfasis Rojo', element: 'span', attributes: { 'class': 'bck-enfasis-2' }},
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
