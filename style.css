@@ -637,6 +637,18 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
 
 /* Iconos */
 
+.item-container .icon:before {
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
   .item-container .icon-smile:before {
         height: 75px;
         width: 225px;
