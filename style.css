@@ -2373,6 +2373,13 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 /**/
 
 @media screen and (max-width: 1099px) {
+	
+    /*SOMOS*/
+    #actividad .carousel-inner .item-container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+	
     .body_clase .content-wrapper {
         max-width: 100%;
     }
