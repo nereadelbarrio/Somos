@@ -819,10 +819,17 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     background-image: url(images/caja_leon_02.png);
 }
 
-    .bck-enfasis {
-        color: #dd9c3c;
-        font-weight: bold;
-    }
+/*énfasis*/
+.bck-enfasis {
+    color: #dd9c3c;
+    font-weight: bold;
+}
+
+.bck-enfasis-1 {
+    color: #01BAC6;
+    font-weight: bold;
+}
+
 
 
 .bck-title8 {
