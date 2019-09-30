@@ -48,7 +48,7 @@
 				{ name: 'Lista Desordenada 4', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
 				{ name: 'Lista Desordenada 5', element: 'ul', attributes: { 'class': 'bck-ul-5'} },
 	
-
+				{ name: 'Icono Smile', element: 'span', attributes: { 'class': 'icon icon-smile' } },
 				
 				{ name: 'Caja Amarilla', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
 				{ name: 'Caja Em Casa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
