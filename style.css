@@ -649,16 +649,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     vertical-align: middle;
 }
 
-  .item-container .icon-smile:before {
-        height: 75px;
-        width: 225px;
-        margin-top: 2%;
-        margin-bottom: 3%;
-        background-image: url(icono_smile.PNG);
-        color: #EF4C84;
-        font-family: 'Conv_Nunito-Light',Sans-Serif;
-        font-weight: bold;
-    }
+.item-container .icon-smile:before{
+    height: 30px;
+    width: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-image: url(images/icono_smile.PNG);
+}
 
 #actividad .player.audio {
     background: url(images/Somos_audio.png) 0 0 no-repeat;
