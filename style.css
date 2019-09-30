@@ -1445,7 +1445,8 @@ margin-top: 1px;
 }
 
 .bck-box.box-5 .bck-title p{
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
+    text-indent: 0px;
 }
 
 
