@@ -863,11 +863,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     font-size: 30px;
 }
 
-    strong {
+.strong {
         color: inherit !important;
         font-weight: bold;
-    font-family: 'Conv_AvantGarde_Bk_BT_Demi';
-    }
+}
 
     .bck-tooltip, .bck-underline {
          text-decoration: underline;
