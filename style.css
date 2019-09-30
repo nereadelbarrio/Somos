@@ -654,6 +654,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     width: 30px;
     margin-top: 1px;
     margin-bottom: 1px;
+    margin-left: -6px;
     background-image: url(images/icono_smile.PNG);
 }
 
