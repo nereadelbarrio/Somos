@@ -210,6 +210,10 @@
 	font-family: 'Conv_Nunito-Light',Sans-Serif;
     }
 
+   .texto_curso p{    
+       text-indent: 20px;
+   }
+
     .texto_curso p:last-of-type {
         margin-bottom: 15px;
 	text-indent: 20px;
