@@ -2546,6 +2546,10 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
         margin-top: -14%;
         margin-left: 16%;
     }
+     .bck-title1{
+       width: max-content;
+    }
+	
 /**/	
 	
 	
