@@ -2447,6 +2447,10 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     margin-top: -41px;
     }
 
+    .bck-box.box-2 .bck-title:before{
+        margin-left: 32%;
+    }
+	
     /**/
 
     #actividad .carousel-inner .class_slide {
