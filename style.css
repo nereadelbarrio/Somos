@@ -601,6 +601,16 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     text-align: right;
 }
 
+.fa-chevron-right:before{
+    content: "\f054";
+    color: #EF4C84;
+}
+
+.fa-chevron-left:before{
+    content: "\f054";
+    color: #EF4C84;
+}
+
 /*botones SOMOS*/
 .btn-primary, 
 .btn-primary.disabled, 
