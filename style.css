@@ -551,6 +551,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
 
     .content_type_clase_Somos .publisher-navbar .dropdown button {
         background: none;
+        font-size: 2.2rem;
+        margin-top: 3px;
         color: #EF4C84;
         border: none;
         font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
