@@ -2341,6 +2341,18 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
         padding-left: 60px;
         padding-right: 60px;
     }
+
+    .bck-title7{
+        margin-left: -145px;
+    }
+
+    .bck-title7:before{
+        left: -129px;
+
+    }
+
+    /**/
+	
 	
     .body_clase .content-wrapper {
         max-width: 100%;
