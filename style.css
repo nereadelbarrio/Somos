@@ -582,6 +582,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
     }
 
+.libro-left ul li .title{
+        font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
+    }
+
+#indice .unit-content .actividades .item{
+        font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
+    }
 /**/
 
 /* Pagination */
