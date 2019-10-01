@@ -2355,7 +2355,10 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
         position: absolute;
         background-image: url(images/caja_leon_02.png);
     }
-
+	
+    #actividad .carousel-inner .item-container.aux-bckg.is-top .class_slide{
+        margin-left: 31px;
+    }
     /**/
 	
 	
