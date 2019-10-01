@@ -451,7 +451,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     }
 
 .content_type_clase_Somos .logo-publisher {
-    ackground-image: url(images/logo.png) !important;
+    background-image: url(images/logo.png) !important;
     content: " ";
     height: 55px;
     background-repeat: no-repeat;
