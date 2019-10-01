@@ -2380,6 +2380,18 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 }
 
 @media screen and (max-width: 992px) {
+/*SOMOS*/
+.bck-title7{
+    padding: 20px 52px 15px 169px;
+}
+
+.bck-title7:before{
+    left: -56px;
+}
+
+/**/	
+	
+
     #actividad .class_slide {
         padding-right: 30px;
         padding-left: 30px;
