@@ -24,6 +24,14 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Conv_JosefinSans-Regular';
+	src: url('fonts/JosefinSans-Regular.eot');
+	src: local('☺'), url('fonts/JosefinSans-Regular.woff') format('woff'), url('fonts/JosefinSans-Regular.ttf') format('truetype'), url('fonts/JosefinSans-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700);
