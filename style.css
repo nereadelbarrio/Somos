@@ -577,6 +577,11 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         margin-left: 6px;
 
     }
+
+ .body_clase .libro-left .title{
+        font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
+    }
+
 /**/
 
 /* Pagination */
