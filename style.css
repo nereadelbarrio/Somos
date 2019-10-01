@@ -397,7 +397,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     #top-navigator .slider-indicators li {
         background-color: #28afc8;
         text-indent: 0;
+        background-color: #28afc8;
+        border: 4px solid #EF4C84;
+        text-indent: 0;
+        height: 15px;
+        width: 15px;
     }
+
 
     .slider-indicators .active,
     .slider-indicators li:hover,
