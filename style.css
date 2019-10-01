@@ -2477,6 +2477,7 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     .bck-title7{
         Padding: 20px 52px 15px 113px;
         margin-left: -97px;
+        margin-top: -20px;
     }
 
     .bck-title7:before{
@@ -2484,7 +2485,7 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
         padding: 38px;
     }
 
-    /**/	
+/**/	
 	
 	
 	
