@@ -2400,6 +2400,9 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     left: -56px;
 }
 
+.bck-box.box-5 .bck-title{
+    margin-left: 32%;
+}	
 /**/	
 	
 
@@ -2481,6 +2484,11 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 .bck-box.box-2 .bck-title{
     margin-left: 18%;
 }
+	
+.bck-box.box-5 .bck-title{
+    margin-left: 17%;
+    margin-top: -15%;
+} 	
     
 /**/
 
@@ -2532,6 +2540,11 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 
     #actividad .SinPieRadius .pregunta{
         MARGIN-RIGHT: -10px;
+    }
+	
+    .bck-box.box-5 .bck-title{
+        margin-top: -14%;
+        margin-left: 18%;
     }
 /**/	
 	
