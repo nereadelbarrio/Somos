@@ -2485,6 +2485,23 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
         padding: 38px;
     }
 
+    .bck-box.box-2{
+        margin-top: -40px;
+        margin-left: -7.5%;
+    }
+
+    .bck-box.box-2 .bck-title{
+        MARGIN-LEFT: 24%;
+    }
+
+    .bck-box.box-2 .bck-title:before{
+        margin-top: -14px;
+        margin-left: 13%;
+    }
+
+    #actividad .SinPieRadius .pregunta{
+        MARGIN-RIGHT: -10px;
+    }
 /**/	
 	
 	
