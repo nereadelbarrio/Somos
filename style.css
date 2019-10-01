@@ -2453,6 +2453,22 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 }
 
 @media screen and (max-width: 579px) {
+	
+/*SOMOS*/
+.bck-box.box-2{
+    margin-top: -41px;
+}
+
+.bck-box.box-2 .bck-title:before{
+    margin-left: 21%;
+}
+
+.bck-box.box-2 .bck-title{
+    margin-left: 18%;
+}
+    
+/**/
+
     .bck-row .col-xs-1,
     .bck-row .col-xs-2,
     .bck-row .col-xs-3,
