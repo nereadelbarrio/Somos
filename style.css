@@ -2347,8 +2347,12 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     }
 
     .bck-title7:before{
+	background-size: contain;
+        content: " ";
         left: -129px;
-
+	background-repeat: no-repeat;
+        position: absolute;
+        background-image: url(images/caja_leon_02.png);
     }
 
     /**/
