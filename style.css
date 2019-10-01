@@ -2489,7 +2489,17 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     margin-left: 17%;
     margin-top: -15%;
 } 	
-    
+  
+.bck-title7{
+    padding: 20px 52px 15px 161px;
+}
+.bck-title7:before{
+    left: -82px;
+}
+
+.bck-title1{
+    width: max-content;
+}	
 /**/
 
     .bck-row .col-xs-1,
