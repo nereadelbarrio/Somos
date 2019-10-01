@@ -443,13 +443,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     }
 
 .content_type_clase_Somos .logo-publisher {
-    background-image: url(images/Somoslogoar.png) !important;
+    ackground-image: url(images/logo.png) !important;
     content: " ";
-    height: 60px;
+    height: 55px;
     background-repeat: no-repeat;
-    width: 220px;
+    width: 150px;
     margin-left: -100px;
-    margin-top: 2px;
+    margin-top: 1px;
     margin-right: 10px;
     float: left;
     background-size: contain;
