@@ -2428,6 +2428,10 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     padding:20px 52px 15px 113px;
     margin-top: -27px;
     }
+	
+    .bck-box.box-2{
+    margin-top: -41px;
+    }
 
     /**/
 
