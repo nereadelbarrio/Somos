@@ -279,7 +279,6 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
     text-align: left;
 }
 
-
 #indice .units ul li {
     text-align: center;
     transition: padding 1s;
@@ -287,8 +286,9 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 
 
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
-    background: #00afc8;
-    padding: 8px;
+    background: #01BAC6;
+    padding: 3px 3px 3px 3px;
+    box-shadow: -1px 8px 6px -4px #ef4c844a;
 }
 
 /*titulo slide*/
