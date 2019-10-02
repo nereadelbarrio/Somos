@@ -299,6 +299,9 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
     text-align: left;
 }
 
+#indice .units ul li:not(.add) a .title{
+    margin-left: 28px;
+}
 
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     background: #00afc8;
