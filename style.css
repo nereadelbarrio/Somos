@@ -660,6 +660,9 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     border-color: #FFC20E;
 }
 
+.input-group textarea.form-control.js-richeditor-input{
+    font-size: 2.1rem;
+}
 /**/    
 
 /* Iconos */
