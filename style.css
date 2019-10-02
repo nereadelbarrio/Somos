@@ -252,6 +252,7 @@ a.js-tema:before{
     content: '\f005';
     font-family: 'FontAwesome';
     padding-right: 247px;
+    color: #ffff;
 }
 
 #indice .units ul li a:not(.delete){
@@ -281,6 +282,21 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 #indice .units ul li {
     text-align: center;
     transition: padding 1s;
+}
+
+#indice .units ul li{
+    background: #00afc8;
+}
+
+#indice .units ul li a .title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+    margin: -21px 0 0 33px;
+    line-height: 18px;
+    display: block;
+    font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
+    text-align: left;
 }
 
 
