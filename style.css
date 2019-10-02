@@ -657,7 +657,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
 .shortanswer-container input:focus, 
 .shortanswer-container .preview:focus{
     box-shadow: 0 0 2px #FFC20E;
-    border-color: #FFC20E;
+    border-color: #ffc20e5e;
 }
 
 .input-group textarea.form-control.js-richeditor-input{
