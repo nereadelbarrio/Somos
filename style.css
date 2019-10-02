@@ -619,6 +619,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
 }
 
 /*botones SOMOS*/
+.btn-group, .btn-group-vertical{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .btn-primary, 
 .btn-primary.disabled, 
 .btn-primary.disabled:hover, 
