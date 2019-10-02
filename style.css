@@ -637,6 +637,22 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     background-color: #ffb025;
     }
 
+.btn-primary[disabled], .btn-primary[disabled]:focus{
+    border: solid 2px #555;
+    color: #444444;
+    background-color: rgb(255,194,14);
+}
+
+.btn-save[disabled], .btn-save[disabled]:focus{
+    border: solid 2px #555;
+    color: #444444;
+    background-color: rgb(255,194,14);
+}
+
+#actividad .content .review .attemps span{
+    background-color: #FFC20E;
+}
+
 /**/    
 
 /* Iconos */
