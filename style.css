@@ -272,7 +272,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 
 
 #indice .units ul li.active:not(.disabled) {
-    background: #00afc8;
+    background: #00d0dd;
     transition: none;
     font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
     text-align: left;
@@ -285,7 +285,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 
 
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
-    background: #00d0dd;
+    background: #00afc8;
     padding: 3px 3px 3px 3px;
     box-shadow: -1px 8px 6px -4px #ef4c844a;
 }
