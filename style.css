@@ -241,7 +241,32 @@
 
 
 /*TOC*/
+/*SOMOS*/
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
+    background: #00d0dd;
+    text-align: left;
+    font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
+}
 
+a.js-tema:before{
+    content: '\f005';
+    font-family: 'FontAwesome';
+    padding-right: 247px;
+}
+
+#indice .units ul li a:not(.delete){
+    padding: 8px 16px 8px 10px;
+}
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
+    margin-left: 28px;
+    margin-top: -20px;
+}
+
+
+/**/
 #indice .unit-content .header .title {
     color: transparent;
 }
