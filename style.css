@@ -274,9 +274,11 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 
 #indice .units ul li.active:not(.disabled) {
     background: #00afc8;
-    text-align: center;
-    transition: padding 1s;
+    transition: none;
+    font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
+    text-align: left;
 }
+
 
 #indice .units ul li {
     text-align: center;
