@@ -653,6 +653,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     background-color: #FFC20E;
 }
 
+.html-book input:focus, 
+.html-book textarea:focus, 
+.html-book .preview:focus{
+    box-shadow: 0 0 2px #f9de8c;
+    border-color: #ffc20e5e;
+}
+
 .shortanswer-container textarea:focus, 
 .shortanswer-container input:focus, 
 .shortanswer-container .preview:focus{
