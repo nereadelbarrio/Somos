@@ -614,7 +614,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
 }
 
 .fa-chevron-left:before{
-    content: "\f054";
+    content: "\f053";
     color: #EF4C84;
 }
 
