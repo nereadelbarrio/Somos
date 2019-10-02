@@ -244,7 +244,6 @@
 /*SOMOS*/
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
-    background: #00d0dd;
     text-align: left;
     font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
 }
@@ -286,7 +285,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 
 
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
-    background: #01BAC6;
+    background: #00d0dd;
     padding: 3px 3px 3px 3px;
     box-shadow: -1px 8px 6px -4px #ef4c844a;
 }
