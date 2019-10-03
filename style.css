@@ -238,7 +238,27 @@
 
 /**/
 
+/*SECCIONES*/
+/*quitar fondo slide*/
+#actividad  .carousel-inner .SinFondo .item-container.aux-fullscreen .class_slide, 
+#actividad  .carousel-inner .SinFondo .item-container.aux-bckg .class_slide{
+    background-color: #fff0;
+}
 
+/*quitar margin bottom slide y border radius*/
+#actividad .SinPieRadius .pregunta{
+    margin-bottom: -1px;
+}
+
+/*border-radius slide*/
+#actividad .carousel-inner .SinPieRadius .item-container.aux-bckg.is-top .class_slide{
+        border-radius: 30PX;
+}
+
+#actividad .carousel-inner .item-container .fs-img-container {
+
+    margin-top: 0px;
+}
 
 /*TOC*/
 /*SOMOS*/
