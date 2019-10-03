@@ -236,6 +236,10 @@
         margin-bottom: 20px;
     }
 
+    a:hover, a:active, a:focus{
+        color: #FFC20E;
+    }
+
 /**/
 
 /*SECCIONES*/
