@@ -2667,6 +2667,17 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 .bck-title1{
     width: max-content;
 }	
+	
+.body_curso #indice .unit-content .header .title {
+    font-size: 15px;
+    font-family: 'Conv_JosefinSans-Regular',Sans-Serif;
+    height: auto;
+    line-height: 55px;
+    margin: 0 0 0 20px;
+    position: absolute;
+    z-index: 2;
+    color: #01BAC6;
+}	
 /**/
 
     .bck-row .col-xs-1,
