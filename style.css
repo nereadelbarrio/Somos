@@ -829,7 +829,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
     .bck-title2:before {
         background-size: contain;
         content: " ";
-        padding: 415px;
+        padding: 40px 434px;
         left: 63px;
         margin-top: -30px;
         background-repeat: no-repeat;
