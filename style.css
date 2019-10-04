@@ -2508,6 +2508,25 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     border-color: transparent;
 }
 
+/*boton solucionar*/
+.btn-solution, 
+.btn-solution.disabled, 
+.btn-solution[disabled], 
+.btn-next, 
+.btn-next.disabled,
+.btn-next[disabled]{
+    background-color: #fdc441;
+}
+
+.btn-solution:hover, 
+.btn-solution:focus, 
+.btn-solution:active, 
+.btn-next:hover, 
+.btn-next:focus, 
+.btn-next:active, .open .dropdown-toggle.btn-solution{
+    background-color: #ffe18c;
+}
+
 #actividad .workspace.true-false .tf-option{
     margin-left: 29px;
     font-family: 'Conv_Nunito-Light',Sans-Serif;
