@@ -2527,6 +2527,13 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     background-color: #ffe18c;
 }
 
+/*ARRASTRAR TEXTO A IMAGEN*/
+#actividad .multimedia-container .circulo_gris.editar:before, 
+#actividad .multimedia-container .circulo_gris.drop_solucion:before, 
+#actividad .multimedia-container .circulo_gris.respuesta:before{
+    min-width: max-content;
+}
+
 #actividad .workspace.true-false .tf-option{
     margin-left: 29px;
     font-family: 'Conv_Nunito-Light',Sans-Serif;
