@@ -1101,7 +1101,7 @@ ol.bck-ol {
     margin-top: -6px;
 }
 
-/*lista ordenada 3 negra*/
+/*lista ordenada 3 = letras mayus*/
 
 #actividad .content .cke_contents .texto_curso .bck-ol-3 li
 #actividad .content .texto_curso .bck-ol-3 li,
@@ -1109,20 +1109,29 @@ ol.bck-ol {
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
-    padding-left: 0px;
+    font-size: 2.1rem;
+    padding-left: 69px;
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: 'Conv_Nunito-Light',Sans-Serif;
 }
 
 #actividad .content .cke_contents .bck-ol-3 li:before,
 #actividad .content .texto_curso .bck-ol-3 li:before,
 #actividad .content .workspace ul li .bck-ol-3 li:before {
-    content: counter(bck-li-counter)'. ';
+    content: counter(bck-li-counter, upper-alpha)')';
     position: absolute;
-    margin-left: -30px;
-    font-weight: normal;
-    font-size: 2.0rem;
+    font-family: 'Conv_Nunito-Light',Sans-Serif;
+    margin-left: -47px;
+    font-weight: bold;
     text-align: right;
-    color: #000;
+    color: #FCAF17;
     margin-top: -2px;
+    background-color: transparent;
+    padding: 6px 13px 4px 10px;
+    border: none;
+    margin-top: -6px;
 }
 
 /*lista fucsia*/
