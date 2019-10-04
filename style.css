@@ -2490,6 +2490,29 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     padding: 10px 0px;
 }
 
+/*ACTIVIDADES*/
+/*boton corregir*/
+.btn-danger, .btn-danger[disabled] {
+    border: solid 2px #555;
+    color: #444444;
+    background-color: rgb(255,194,14);
+}
+
+.btn-danger:hover, 
+.btn-danger:focus, 
+.btn-danger:active, 
+.btn-danger.active, 
+.open .dropdown-toggle.btn-danger{
+    color: #fff;
+    background-color: #ffd863;
+    border-color: transparent;
+}
+
+#actividad .workspace.true-false .tf-option{
+    margin-left: 29px;
+    font-family: 'Conv_Nunito-Light',Sans-Serif;
+}
+
 
 /**/
 
