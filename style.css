@@ -166,6 +166,14 @@
 	text-indent: 20px;
     }
 
+   .texto_curso td p{
+        text-indent: 20px;
+    }
+
+    .texto_curso td p:last-of-type{
+        text-indent: 20px;
+    }
+
     #actividad .class_slide {
         padding: 35px 97px 0px;
     }
