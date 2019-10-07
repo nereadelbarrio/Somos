@@ -1023,13 +1023,72 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         counter-increment: bck-li-counter 1;
         position: relative;
         padding-left: 32px;
-	text-align: left;
-	margin-bottom: 25px;
-	font-weight: bold;
+        text-align: left;
+        margin-bottom: 25px;
+        font-weight: bold;
     }
 
 
     .content ol li:before,
+    .cke_contents ol li:before {
+        content: counter(bck-li-counter)'. ';
+        position: absolute;
+        margin-left: -35px;
+        font-weight: bold;
+        text-align: right;
+        color: #5bbfda;
+        margin-top: -2px;
+    }
+
+    .cke_contents ol.bck-ol {
+        padding-left: 0px !important;
+    }
+
+    ol.bck-ol {
+        padding-left: 32px;
+    }
+
+    #actividad .content .cke_contents .texto_curso .bck-ol li,
+    #actividad .content .texto_curso .bck-ol li,
+    #actividad .content .workspace ul li .bck-ol li {
+        list-style-type: none;
+        counter-increment: bck-li-counter 1;
+        position: relative;
+        padding-left: 0px;
+    }
+
+    #actividad .content .cke_contents .bck-ol li:before,
+    #actividad .content .texto_curso .bck-ol li:before,
+    #actividad .content .workspace ul li .bck-ol li:before {
+        content: counter(bck-li-counter, lower-alpha)'.';
+        position: absolute;
+        color: #94c04e;
+    }
+
+/*Lista ordenada 1 = naranja*/
+
+    /*.content ol,
+    .cke_contents ol {
+        list-style: none;
+        padding: 0;
+    }*/
+
+
+#actividad .content .cke_contents .texto_curso .bck-ol-2 li
+#actividad .content .texto_curso .bck-ol-2 li,
+#actividad .content .workspace ul li .bck-ol-2 li
+    /*.content ol li,
+    .cke_contents ol li*/ {
+        counter-increment: bck-li-counter 1;
+        position: relative;
+        padding-left: 32px;
+        text-align: left;
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+
+
+    /*.content ol li:before,
     .cke_contents ol li:before {
         content: counter(bck-li-counter)' ';
         position: absolute;
@@ -1044,36 +1103,43 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         border-right: 2px solid #444444;
         border-top: 2px solid #444444;
         border-bottom: 2px solid #444444;
-	margin-top: -6px;
+    }*/
+
+    .cke_contents ol .bck-ol-1 {
+        padding-left: 0px !important;
     }
 
+    ol.bck-ol-1 {
+        padding-left: 32px;
+    }
 
-/*lista ordenada*/
+    #actividad .content .cke_contents .texto_curso .bck-ol-1 li,
+    #actividad .content .texto_curso .bck-ol-1 li,
+    #actividad .content .workspace ul li .bck-ol-1 li {
+        list-style-type: none;
+        counter-increment: bck-li-counter 1;
+        position: relative;
+        padding-left: 0px;
+    }
 
-.cke_contents ol.bck-ol {
-    padding-left: 0px !important;
+    #actividad .content .cke_contents .bck-ol-1 li:before,
+    #actividad .content .texto_curso .bck-ol-1 li:before,
+    #actividad .content .workspace ul li .bck-ol-1 li:before {
+        content: counter(bck-li-counter)' ';
+        position: absolute;
+        margin-left: -57px;
+        font-weight: bold;
+        text-align: right;
+        color: #444444;
+        margin-top: -2px;
+        background-color: #F6BB0D;
+        padding: 4px 13px 4px 10px;
+        border-radius: 0 20px 20px 0;
+        border-right: 2px solid #444444;
+        border-top: 2px solid #444444;
+        border-bottom: 2px solid #444444;
 }
 
-ol.bck-ol {
-    padding-left: 32px;
-}
-
-#actividad .content .cke_contents .texto_curso .bck-ol li,
-#actividad .content .texto_curso .bck-ol li,
-#actividad .content .workspace ul li .bck-ol li {
-    list-style-type: none;
-    counter-increment: bck-li-counter 1;
-    position: relative;
-    padding-left: 0px;
-}
-
-#actividad .content .cke_contents .bck-ol li:before,
-#actividad .content .texto_curso .bck-ol li:before,
-#actividad .content .workspace ul li .bck-ol li:before {
-    content: counter(bck-li-counter, lower-alpha)'.';
-    position: absolute;
-    color: #94c04e;
-}
 
 /*lista ordenada 2*/
 
