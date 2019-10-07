@@ -2586,6 +2586,14 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     font-family: 'Conv_Nunito-Light',Sans-Serif;
 }
 
+/*palabras cruzadas*/
+.slide.crosswords .enunciados{
+    padding: .5rem 5rem;
+}
+
+.slide.crosswords .enunciados .enunciado{
+    padding: 0 0 0 0;
+}
 
 /**/
 
