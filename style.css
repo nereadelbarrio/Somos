@@ -1067,18 +1067,9 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
 
 /*Lista ordenada 1 = naranja*/
 
-    /*.content ol,
-    .cke_contents ol {
-        list-style: none;
-        padding: 0;
-    }*/
-
-
 #actividad .content .cke_contents .texto_curso .bck-ol-2 li
 #actividad .content .texto_curso .bck-ol-2 li,
-#actividad .content .workspace ul li .bck-ol-2 li
-    /*.content ol li,
-    .cke_contents ol li*/ {
+#actividad .content .workspace ul li .bck-ol-2 li {
         counter-increment: bck-li-counter 1;
         position: relative;
         padding-left: 32px;
@@ -1086,24 +1077,6 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         margin-bottom: 25px;
         font-weight: bold;
     }
-
-
-    /*.content ol li:before,
-    .cke_contents ol li:before {
-        content: counter(bck-li-counter)' ';
-        position: absolute;
-        margin-left: -57px;
-        font-weight: bold;
-        text-align: right;
-        color: #444444;
-        margin-top: -2px;
-        background-color: #F6BB0D;
-        padding: 4px 13px 4px 10px;
-        border-radius: 0 20px 20px 0;
-        border-right: 2px solid #444444;
-        border-top: 2px solid #444444;
-        border-bottom: 2px solid #444444;
-    }*/
 
     .cke_contents ol .bck-ol-1 {
         padding-left: 0px !important;
@@ -1131,7 +1104,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled){
         font-weight: bold;
         text-align: right;
         color: #444444;
-        margin-top: -2px;
+        margin-top: -5px;
         background-color: #F6BB0D;
         padding: 4px 13px 4px 10px;
         border-radius: 0 20px 20px 0;
