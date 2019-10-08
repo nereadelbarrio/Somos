@@ -22,12 +22,10 @@
 				{ name: 'Título 4', element: 'h4', attributes: { 'class': 'bck-title4'} },
 				{ name: 'Título 5', element: 'h4', attributes: { 'class': 'bck-title5'} },
 				{ name: 'Título 6', element: 'h4', attributes: { 'class': 'bck-title6'} },
-				{ name: 'Título Intro', element: 'h4', attributes: { 'class': 'bck-title7'} },
+				{ name: 'Título trabajo cotidiano', element: 'h4', attributes: { 'class': 'bck-title7'} },
 				{ name: 'Título Analice', element: 'h4', attributes: { 'class': 'bck-title8'} },
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
-				{ name: 'Énfasis Azul', element: 'span', attributes: { 'class': 'bck-enfasis-1' }},
-				{ name: 'Énfasis Rojo', element: 'span', attributes: { 'class': 'bck-enfasis-2' }},
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
@@ -50,13 +48,13 @@
 				{ name: 'Lista Desordenada 4', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
 				{ name: 'Lista Desordenada 5', element: 'ul', attributes: { 'class': 'bck-ul-5'} },
 	
-				{ name: 'Icono Smile', element: 'span', attributes: { 'class': 'icon icon-smile' } },
+				{ name: 'Icono Ideias', element: 'span', attributes: { 'class': 'icon icon-ideias' } },
 				
-				{ name: 'Caja Amarilla', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
+				{ name: 'Caja Aplico', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
 				{ name: 'Caja Em Casa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
 				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
-				{ name: 'Caja Inicio Modulo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } },
-				{ name: 'Caja Vamos jogar', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-5' } },
+				{ name: 'Caja Materiales', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } },
+				{ name: 'Caja Integración', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-5' } },
 				{ name: 'Caja Diccionario', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-6' } },
 				{ name: 'Caja Imágenes', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-7' } },
 				{ name: 'Caja Aprenda a', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-8' } },
@@ -84,7 +82,7 @@
 			],stylesToRemove: ["Título 1", "Título 2","Título 3", "Enunciado actividad", "Caja 1" ,"Caja 2", "Caja 3"]
 		},
 
-		init: function () {
+	init: function () {
 			this.parent.init.call(this.parent, this);
 			this.parent.initInfoPopover();
 			this.getActualUnitActivities();
