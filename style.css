@@ -2901,24 +2901,24 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 
 @media screen and (max-width: 360px) {
     .content_type_clase_Somos .publisher-navbar #top-navigator {
-        max-width: 150px;
+        max-width: 100px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .content_type_clase_Somos .publisher-navbar #top-navigator {
-        max-width: 115px;
+        max-width: 79px;
     }
 }
 
 /* Flechas scroll horizontal puntitos navegacion */
-#top-navigator.show_right:after {
-    content: '\F054';
+#top-navigator.show_left:before {
+    content: '\F053';
     font-family: 'FontAwesome';
     position: absolute;
-    right: 0;
-    color: #878787;
-    top: -20px;
+    left: -12px;
+    color: #01BAC6;
+    top: -18px;
     height: 35px;
     line-height: 5.4rem;
     width: 20px;
@@ -2927,13 +2927,13 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     display: block;
 }
 
-#top-navigator.show_left:before {
-    content: '\F053';
+#top-navigator.show_right:after {
+    content: '\F054';
     font-family: 'FontAwesome';
     position: absolute;
-    left: 0;
-    color: #878787;
-    top: -20px;
+    right: 0px;
+    color: #01BAC6;
+    top: -17px;
     height: 35px;
     line-height: 5.4rem;
     width: 20px;
