@@ -2682,6 +2682,10 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 
 .bck-box.box-5 .bck-title{
     margin-left: 32%;
+}
+	
+.content_type_clase_Somos .publisher-navbar #top-navigator {
+    max-width: 367px;
 }	
 /**/	
 	
