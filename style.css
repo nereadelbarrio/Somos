@@ -2795,6 +2795,11 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     z-index: 2;
     color: #01BAC6;
 }	
+	
+.content_type_clase_Somos .publisher-navbar #top-navigator{
+    max-width: 150px;
+}
+	
 /**/
 
     .bck-row .col-xs-1,
