@@ -2,12 +2,12 @@
 	'use strict';
 
 	var SomosStyle = function () {
-			blink.theme.styles.fancy.apply(this, arguments);
+			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
 	SomosStyle.prototype = {
-		parent: blink.theme.styles.fancy.prototype,
+		parent: blink.theme.styles.basic.prototype,
 		bodyClassName: 'content_type_clase_Somos',
 		extraPlugins: ['image2'],
 		toolbar: { name: 'editorial' },
@@ -321,7 +321,7 @@
 		
 	};
 
-	SomosStyle.prototype = _.extend({}, new blink.theme.styles.fancy(), SomosStyle.prototype);
+	SomosStyle.prototype = _.extend({}, new blink.theme.styles.basic(), SomosStyle.prototype);
 
 	blink.theme.styles.Somos = SomosStyle;
 
