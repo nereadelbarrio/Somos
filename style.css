@@ -248,6 +248,22 @@
         color: #FFC20E;
     }
 
+/*Iconos video portada*/
+#indice .unit-content .material .item .imagen.video:after{
+    background-color: #EF4C84;
+    border-radius: 26px;
+    content: '\f03d';
+    font-family: 'FontAwesome';
+    color: #ffff;
+    font-size: 44px;
+    line-height: 2.2;
+    box-shadow: 8px 9px 10px -4px #aaa;
+}
+
+#indice .unit-content .material .item{
+    font-family: 'Conv_Nunito-Light',Sans-Serif;
+}
+
 /**/
 
 /*SECCIONES*/
