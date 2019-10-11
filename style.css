@@ -2758,6 +2758,12 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
 
 }
 
+@media screen and (max-width: 757px) {
+    .content_type_clase_Somos .publisher-navbar #top-navigator {
+        max-width: 317px;
+    }
+}
+
 @media screen and (max-width: 579px) {
 	
 /*SOMOS*/
