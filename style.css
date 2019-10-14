@@ -2930,6 +2930,19 @@ body:not(.edit) .bck-flipbox-title, body:not(.edit) .bck-flipbox-section {
     }
 }
 
+@media screen and (max-width: 414px) {
+    .content_type_clase_Somos .publisher-navbar #top-navigator {
+        max-width: 130px;
+    }
+
+    .content_type_clase_Somos .logo-publisher {
+        margin-left: -18px;
+        width: 70px;
+        margin-top: 6px;
+    }
+
+}
+
 @media screen and (max-width: 375px) {
     .content_type_clase_Somos .publisher-navbar #top-navigator {
         max-width: 130px;
