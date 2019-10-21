@@ -3095,7 +3095,7 @@ body.print-mode .title *, body.print-mode .title {
     width: 30%;
 }
 
-/*archivos adjuntos*/
+/* Estilo eduvision archivos adjuntos
 .bck-file-label {
     background: transparent;
 }
@@ -3133,4 +3133,4 @@ body.print-mode .title *, body.print-mode .title {
 
 .bck-file-attach img{
   display:none; 
-}
+}*/
