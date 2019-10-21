@@ -3095,42 +3095,23 @@ body.print-mode .title *, body.print-mode .title {
     width: 30%;
 }
 
-/* Estilo eduvision archivos adjuntos
-.bck-file-label {
-    background: transparent;
-}
-
-.bck-file-label:hover {
-    color: #28afc8;
-}
-
-.bck-file-attach:hover {
-    color: #28afc8;
-}
-
-.bck-file-label:before {
-    padding: 10px
-    background:#000;
-}
-
+/*archivos entregables*/
 .bck-file-attach span {
-    max-width: 100%;
-    overflow: hidden;
-    background-image: url(images/eduimpresion.png);
-    background-position: left;
-    background-size: 75px;
-    background-repeat: no-repeat;
-    padding-left: 85px;
-    padding-bottom: 50px;
-    font-family: Conv_AvantGarde_Bk_BT_Demi;
+    display: inline-block;
+    max-width: 75%;
+    text-overflow: ellipsis;
+    overflow: visible;
 }
 
-.uploaded-file-editor .bck-file-attach span {
-    background-image: none;
-    padding-left: 0;
-    padding-bottom: 0;
+.bck-sub-label, .bck-file-label {
+    background: #c8c9c838;
+    -webkit-border-radius: 5px 5px;
+    -moz-border-radius: 5px 5px;
+    border-radius: 5px 5px;
+    max-width: 200px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    overflow-wrap: break-word;
 }
-
-.bck-file-attach img{
-  display:none; 
-}*/
